@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/logoSemFundo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d563016498.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <title>IA Every day</title>
+</head>
+
+<body>
+
+    <!--Botão do tema -->
+    <button id="color-toggle" class="color-toggle-button">
+        <i id="theme-icon" class="fas fa-lightbulb"></i>
+    </button>
+
+    <!--Botão "Voltar ao Tpo"-->
+    <div class="back-to-top" id="backToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!--HEADER-->
+    <header>
+        <div class="container flex-row">
+            <div class="header__logo">
+                <a href="hero"><img src="assets/img/logotipo.png" alt="logotipo" width="50"></a>
+            </div>
+            <nav>
+                <ul class="header__menu flex-row">
+                    <li>
+                        <a href="#CurrentImpacts">Impactos Atuais</a>
+                    </li>
+                    <li>
+                        <a href="#projectionsFutureNegative">Projeções Negativas</a>
+                    </li>
+                    <li>
+                        <a href="#projectionsFuture">Projeções Positivas</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Início-->
+    <section id="hero" class="container flex-row">
+        <div id="particles-js"></div>
+        <div class="hero__content">
+            <h1 class="title">IA Além dos Horizontes: Desvendando Transformações na Sociedade Moderna</h1>
+            <p class="text">Neste artigo, investigamos o impacto amplo e profundo da inteligência artificial (IA) na
+                sociedade contemporânea. Desde a redefinição de empregos até as questões éticas cruciais, abordamos como
+                a IA transcende as fronteiras convencionais, moldando de maneira inédita os fundamentos sociais,
+                econômicos e culturais. Este trabalho busca não apenas analisar as transformações em curso, mas também
+                destacar a importância da governança ética para orientar o caminho rumo a um futuro impulsionado pela
+                inteligência artificial.</p>
+        </div>
+        <div class="hero__img">
+            <img src="assets/img/logoSemFundo.png" alt="Impacto da IA na sociedade">
+        </div>
+    </section>
+
+    <!--Impactos Atuais da Ia na Sociedade-->
+    <section id="CurrentImpacts" class="container flex-center flex-column" data-aos="fade-up">
+        <h2 class="section-heading text-center" data-aos="fade-left">Impactos Atuais da IA na Sociedade</h2>
+
+        <div class="features text-center">
+            <!--Primeiro Card Impactos-->
+            <div class="feature" data-aos="zoom-in">
+                <h3 class="feature__title">Automatização de Processos Industriais</h3>
+                <div class="feature__text">
+                    <p>A IA já revolucionou a produção, substituindo tarefas manuais por sistemas automatizados,
+                        aumentando eficiência e reduzindo custos.</p>
+                </div>
+            </div>
+
+            <!--Segundo Card Impactos-->
+            <div class="feature" data-aos="zoom-in">
+                <h3 class="feature__title">Assistência Médica Avançada</h3>
+                <div class="feature__text">
+                    <p>Diagnósticos precisos e tratamentos personalizados são possíveis graças à análise de dados
+                        massivos pela inteligência artificial, melhorando os cuidados com a saúde.</p>
+                </div>
+            </div>
+
+            <!--Terceiro Card Impactos-->
+            <div class="feature" data-aos="zoom-in">
+                <h3 class="feature__title">Assistentes Virtuais e Chatbots</h3>
+                <div class="feature__text">
+                    <p>A IA aprimora a interação homem-máquina, facilitando a comunicação instantânea e personalizada em
+                        serviços e suporte ao cliente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projeções Positivos para o Futuro-->
+    <section id="projectionsFuture">
+        <div class="container">
+            <h2 class="section-heading right" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">Projeções
+                Positivas para o Futuro</h2>
+            <div class="projectionsFutures">
+                <div class="projectionsFuture">
+                    <div class="projectionsFuture" data-aos="fade-right" data-aos-delay="100" data-aos-duration="700"
+                        ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFuture__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFuture__title">Descobertas Médicas Avançadas</h3>
+                        <p class="projectionsFuture__text">A IA pode acelerar a pesquisa médica, levando a descobertas
+                            inovadoras e avanços no tratamento de doenças complexas</p>
+                    </div>
+                </div>
+
+                <div class="projectionsFuture">
+                    <div class="projectionsFuture" data-aos="fade-left" data-aos-delay="200" data-aos-duration="700"
+                        ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFuture__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFuture__title">Educação Personalizada</h3>
+                        <p class="projectionsFuture__text">Sistemas de aprendizado adaptativo podem oferecer
+                            experiências educacionais personalizadas, atendendo às necessidades individuais dos alunos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="projectionsFuture">
+                    <div class="projectionsFuture" data-aos="fade-right" data-aos-delay="300" data-aos-duration="700"
+                        ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFuture__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFuture__title">Soluções Sustentáveis</h3>
+                        <p class="projectionsFuture__text">A IA pode impulsionar inovações em energia, agricultura e
+                            gestão de recursos, contribuindo para um futuro mais sustentável.</p>
+                    </div>
+                </div>
+
+                <div class="projectionsFuture">
+                    <div class="projectionsFuture" data-aos="fade-left" data-aos-delay="400" data-aos-duration="700"
+                        ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFuture__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFuture__title">Expansão da Realidade Virtual e Aumentada</h3>
+                        <p class="projectionsFuture__text">A integração da IA pode aprimorar significativamente as
+                            experiências de realidade virtual e aumentada, transformando setores como educação e
+                            entretenimento.</p>
+                    </div>
+                </div>
+
+                <div class="projectionsFuture">
+                    <div class="projectionsFuture" data-aos="fade-right" data-aos-delay="500" data-aos-duration="700"
+                        ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFuture__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFuture__title">Assistência Pessoal Aprimorada</h3>
+                        <p class="projectionsFuture__text">Sistemas de IA mais sofisticados podem oferecer assistência
+                            pessoal avançada, facilitando a gestão de tarefas e a tomada de decisões.</p>
+                    </div>
+                </div>
+
+                <div class="projectionsFuture">
+                    <div class="projectionsFuture" data-aos="fade-left" data-aos-delay="600" data-aos-duration="700"
+                        ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFuture__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFuture__title">Inclusão Digital</h3>
+                        <p class="projectionsFuture__text">A IA pode desempenhar um papel crucial na redução da lacuna
+                            digital, proporcionando acesso a oportunidades educacionais e profissionais em todo o mundo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projeções Negativas para o Futuro-->
+    <section id="projectionsFutureNegative">
+        <div class="container">
+            <h2 class="section-heading right" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">Projeções
+                Negativas para o Futuro</h2>
+            <div class="projectionsFutureNegatives">
+                <div class="projectionsFutureNegative">
+                    <div class="projectionsFutureNegative" data-aos="fade-right" data-aos-delay="100"
+                        data-aos-duration="700" ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFutureNegative__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFutureNegative__title">Desemprego Estrutural</h3>
+                        <p class="projectionsFutureNegative__text">A automação intensiva pode levar a uma diminuição
+                            significativa de empregos em certos setores, resultando em desafios sociais e econômicos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="projectionsFutureNegative">
+                    <div class="projectionsFutureNegative" data-aos="fade-left" data-aos-delay="200"
+                        data-aos-duration="700" ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFutureNegative__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFutureNegative__title">Viés e Discriminação Algorítmica</h3>
+                        <p class="projectionsFutureNegative__text">A IA pode perpetuar e amplificar preconceitos
+                            existentes se não for adequadamente treinada e monitorada, resultando em discriminação.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="projectionsFutureNegative">
+                    <div class="projectionsFutureNegative" data-aos="fade-right" data-aos-delay="300"
+                        data-aos-duration="700" ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFutureNegative__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFutureNegative__title">Dependência Tecnológica</h3>
+                        <p class="projectionsFutureNegative__text">A sociedade pode se tornar excessivamente dependente
+                            da IA, gerando vulnerabilidades significativas em caso de falhas sistêmicas ou ataques
+                            cibernéticos.</p>
+                    </div>
+                </div>
+
+                <div class="projectionsFutureNegative">
+                    <div class="projectionsFutureNegative" data-aos="fade-left" data-aos-delay="400"
+                        data-aos-duration="700" ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFutureNegative__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFutureNegative__title">Perda de Privacidade</h3>
+                        <p class="projectionsFutureNegative__text">O aumento do uso de IA na coleta e análise de dados
+                            pode comprometer a privacidade individual, levantando preocupações éticas e legais.</p>
+                    </div>
+                </div>
+
+                <div class="projectionsFutureNegative">
+                    <div class="projectionsFutureNegative" data-aos="fade-right" data-aos-delay="500"
+                        data-aos-duration="700" ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFutureNegative__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFutureNegative__title">Desigualdade no Acesso</h3>
+                        <p class="projectionsFutureNegative__text">Se não for abordada adequadamente, a implementação de
+                            IA pode aprofundar as disparidades sociais e econômicas, criando divisões mais amplas..</p>
+                    </div>
+                </div>
+
+                <div class="projectionsFutureNegative">
+                    <div class="projectionsFutureNegative" data-aos="fade-left" data-aos-delay="600"
+                        data-aos-duration="700" ata-aos-easing="ease-out-quart">
+                        <div class="projectionsFutureNegative__icon">
+                            <img src="assets/img/logotipo.png" alt="Achar imagem ainda">
+                        </div>
+                        <h3 class="projectionsFutureNegative__title">Substituição de Habilidades Humanas</h3>
+                        <p class="projectionsFutureNegative__text">A automação extensiva pode levar à substituição de
+                            habilidades humanas em diversas áreas, levantando questões sobre o valor do trabalho humano.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Profissional-->
+    <section id="team" class="container">
+        <h5 class="section-subheading text-center" data-aos="fade-up">Conheça o Profissional que fez o artigo</h5>
+        <h2 class="section-heading left right text-center" data-aos="fade-up" data-aos-delay="100">Experiência e
+            Dedicação
+            em Desenvolvimento Web</h2>
+
+        <div class="members">
+            <div class="member">
+                <div class="member__img" data-aos="fade-right" data-aos-delay="200">
+                    <img src="assets/img/maycon.jpg" alt="Maycon">
+                </div>
+                <div class="member__content" data-aos="fade-left" data-aos-delay="300">
+                    <h1>Maycon Kauan</h1>
+                    <span>Desenvolvedor Web</span>
+                    <p>Com início em 2021, me dedico ao desenvolvimento de soluções web inovadoras. Como estudante de
+                        Engenharia
+                        de Software, combino conhecimento técnico com estética para criar sites excepcionais, focando na
+                        excelência
+                        e satisfação do cliente.</p>
+                    <div class="member__skills">
+                        <h3 class="skills-titile">Skills</h3>
+                        <div class="skills-list">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                            </ul>
+                            <ul>
+                                <li>Figma</li>
+                                <li>Photoshop</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section id="contact">
+        <div class="container">
+            <h5 class="section-subheading text-center" data-aos="fade-up">Fale Conosco</h5>
+            <h2 class="section-heading text-center left right" data-aos="fade-up" data-aos-delay="100">Venha tirar sua
+                Duvida</h2>
+            <div class="contact">
+                <!--Formulário-->
+                <form id="my-for" class="contact__form" data-aos="fade-right">
+                    <h1>Envie sua mensagem</h1>
+                    <input type="text" name="user_name" placeholder="Nome Completo" required>
+                    <input type="email" name="user_email" placeholder="Seu memlhor e-mail" required>
+                    <input type="tel" name="user_phone" placeholder="WhatsApp" required>
+                    <input type="text" name="subject" placeholder="Assunto" required>
+                    <textarea rows="5" name="message" required placeholder="Sua duvida..."></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                </form>
+
+                <!--Detalhes Contato-->
+                <div class="contact__details" data-aos="fade-left">
+                    <p class="text">Fale Conosco, seja para tirar uma dúvida, ou dar uma sugestão.</p>
+                    <div class="details">
+                        <div class="detail">
+                            <div class="detail__icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="detail__content">
+                                <h3>WhatsApp</h3>
+                                <p>(11) 98839-7775</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="detail__icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="detail__content">
+                                <h3>Email</h3>
+                                <p>contato@maycon.com.br</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="detail__icon">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <div class="detail__content">
+                                <h3>Endereço</h3>
+                                <p>Fim do Mundo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer data-aos="fade-up">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__details">
+                    <div class="footer__logo">
+                        <img id="footer-logo-img" src="assets/img/logoSemFundo.png" alt="Logo">
+                    </div>
+                    <p class="footer__text">Fique por dentro de tudo que acontece no site.</p>
+                    <div class="footer__newletter">
+                        <form action="#" class="footer__newsletter-form">
+                            <input type="email" placeholder="Seu melhor e-mail" required>
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer__menu">
+                    <h3 class="footer__menu-title">Acesso rápido</h3>
+                    <ul class="footer__menu-list">
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#CurrentImpacts">Impactos Atuais da IA na Sociedade</a></li>
+                        <li><a href="#projectionsFuture">Projeções Positivas para o Futuro</a></li>
+                        <li><a href="#projectionsFutureNegative">Projeções Negativas para o Futuro</a></li>
+                        <li><a href="#team">Profissional</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__menu">
+                    <h3 class="footer__menu-title">Redes Sociais</h3>
+                    <ul class="footer__menu-list">
+                        <li><a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Finbox%2F%3Fhl%3Dpt-br%26__coig_login%3D1" target="_blank">Instagram</a></li>
+                        <li><a href="https://github.com/guiguiDPS?tab=repositories" target="_blank">Github</a></li>
+                        <li><a href="https://www.linkedin.com/feed/?midToken=AQFqeeTp2TGeFw&midSig=3Gvme3syeANH41&trk=eml-email_m2m_invite_single_01-header-0-home_glimmer&trkEmail=eml-email_m2m_invite_single_01-header-0-home_glimmer-null-dzavtr~lrkrphkm~pa-null-null&eid=dzavtr-lrkrphkm-pa&otpToken=MWEwMTFiZTMxNzJhY2ZjMWIxMjQwNGVkNDYxYmUxYjM4OWNhZDM0MDlmYTg4NjYxNzljNjAwNmU0ZTVlNWZmMWZlZDJkZjk0NDhmOWMwZjM0NmFlY2YyMDdjYjZiNDBiNDgyMzYyNjU5YjkxMGQ5ZDk5MDAyOSwxLDE%3D" target="_blank">Linkedin</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-icons">
+                    <p>Siga-me</p>
+                    <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Finbox%2F%3Fhl%3Dpt-br%26__coig_login%3D1" class="instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/guiguiDPS?tab=repositories" class="github" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/?midToken=AQFqeeTp2TGeFw&midSig=3Gvme3syeANH41&trk=eml-email_m2m_invite_single_01-header-0-home_glimmer&trkEmail=eml-email_m2m_invite_single_01-header-0-home_glimmer-null-dzavtr~lrkrphkm~pa-null-null&eid=dzavtr-lrkrphkm-pa&otpToken=MWEwMTFiZTMxNzJhY2ZjMWIxMjQwNGVkNDYxYmUxYjM4OWNhZDM0MDlmYTg4NjYxNzljNjAwNmU0ZTVlNWZmMWZlZDJkZjk0NDhmOWMwZjM0NmFlY2YyMDdjYjZiNDBiNDgyMzYyNjU5YjkxMGQ5ZDk5MDAyOSwxLDE%3D" class="linkedin" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <p>&copy; 2024 Maycon Kauan. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/d563016498.js" crossorigin="anonymous"></script>
+    
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/voltarTpo.js"></script>
+    <script src="assets/js/themeMode.js"></script>
+    <script src="assets/js/emailForm.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
